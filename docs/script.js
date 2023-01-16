@@ -29,7 +29,7 @@ d3.json("https://gist.githubusercontent.com/phil-pedruco/10447085/raw/426fb47f0a
     feature.append("svg:title")
         .text(function (d) { return d.properties.name; });
 
-    startAnimation();
+    //startAnimation();
     document.getElementById("body").children[0].children[23].style.fill = "#9D2E7F"
     document.getElementById("body").children[0].children[23].addEventListener("mouseover", function(){    
         document.getElementById("body").children[0].children[23].style.fill = "#714A88"
